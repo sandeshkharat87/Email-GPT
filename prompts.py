@@ -1,30 +1,6 @@
 from langchain_core.prompts import PromptTemplate
 
 
-temp_email = """
-Hello!
-
-Thank you for applying for the NLP & LLM Engineer position at ExactRx through Stralynn.
-
-We are pleased to inform you that you have been selected for the next stage, which involves completing and presenting a coding assignment. If your assignment is evaluated positively, we will invite you to a Zoom interview to discuss our company, your previous experience, and the assignment itself.
-
-Please respond to this email to confirm whether you are able to complete the assignment and let us know when you expect to submit the results. The link to the assignment is attached below. 
-
-https://drive.google.com/file/d/1kCzgHlpmuGNKB9-6lJ20u9llVqR7BBMw/view?usp=drive_link
-
-Note: We will make every effort to schedule the interviews as soon as possible; however, please be aware that slight delays may occur due to the upcoming holiday season. 
-
-We look forward to hearing from you.
-
- 
-Dr. Jan Krumsiek
-Head of AI
-ExactRx
-https://www.exactrx.ai/
-"""
-
-
-
 #### Templates
 _template_summary = """
 You are a helpfull bot. Your task to understand the given mail return Summary of the mail.
